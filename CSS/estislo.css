@@ -1,50 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #2b3d4f;
-    color: #333;
+nav {
+  background-color: white; /* Color de fondo de la barra de navegación */
+  overflow: hidden; /* Evita que los elementos floten fuera de la barra de navegación */
+  text-align: center;
 }
-
-.container {
-
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: #bdbbb7;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+nav > a {
+  float: center; /* Hace que los elementos de navegación aparezcan en línea */
+  display: block; /* Hace que los elementos de navegación ocupen todo el ancho de la barra de navegación */
+  color: black; /* Color del texto */
+  text-align: center; /* Centra el texto dentro de los elementos de navegación */
+  text-decoration: none; /* Quita la subrayado predeterminado de los enlaces */
+  padding: 45px;
 }
-
-.header {
-    
-    text-align: right;
-    margin-bottom: 30px;
-    display: inline-flex;
-    padding:  20px;
+nav a + a {
+  margin-left: 20px; /* Espacio entre los elementos de navegación */
+}
+section{
+ justify-content: center ;
+  display: flex;
+  top: 120px ;
+}
+nav a:hover {
+  background-color: #ddd; /* Cambia el color de fondo cuando el cursor está sobre el elemento */
+  color: black; /* Cambia el color del texto cuando el cursor está sobre el elemento */
+}
+.Inicio{
+  width: 1820px;
+  background-color: rgba(245, 252, 255, 1);
+  padding: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 500px;
+}
+.cuadro-proyecto{
+  justify-content: center;
+  margin: 25px;
+  padding: 0px;
 
 }
-.secciones{
-    margin-bottom: 30px;
+h2{
+  text-align: center;
 }
-.secciones-titulo {
-    font-size: 15px;
-    font-weight: bold;
-    margin-bottom: 15px;
-    color: #3b3b3b;
-  }
-  .titulos-segundo{
-    font-family: 'Times New Roman', Times, serif;
-  }
-  *{
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  h1{
-    font-family: "Rokkitt";
-
-  }
-  
-  
-  
-  
+.cuadro-texto{
+  margin-left: 50px;
+padding-top:100px;
+justify-content: center;
+text-align: center;
+width: 500px;
+}
