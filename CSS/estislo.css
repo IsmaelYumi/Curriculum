@@ -38,6 +38,8 @@ nav a:hover {
 }
 .Inicio{
   width: 1820px;
+  background-size: cover;
+  background-image: url('C:/Users/Ismael/Documents/github/Curriculum/Imagenes/fondo.jpg');
   background-color: rgba(245, 252, 255, 1);
   padding: 100px;
   align-items: center;
@@ -61,6 +63,11 @@ nav a:hover {
   padding: 0px;
 
 }
+.cuadro-proyecto p{
+  justify-content: center;
+  text-align: center;
+  
+}
 h2{
   text-align: center;
 }
@@ -72,6 +79,7 @@ text-align: center;
 width: 500px;
 }
 section#Portafolio{
+  background-color: rgba(248, 248, 255, 0.863);
   display: flex;
   justify-content: space-between;
 }
